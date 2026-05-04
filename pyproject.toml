@@ -1,0 +1,20 @@
+[project]
+name = "xcs224n"
+version = "0.1.0"
+description = "Natural language processing with deep learning environment"
+requires-python = ">=3.12"
+dependencies = [
+    "pip==26.0.1",
+    "numpy==2.4.2",
+    "scipy==1.16.3",
+    "scikit-learn==1.8.0",
+    "matplotlib==3.10.8",
+    "tqdm==4.67.3",
+    "docopt==0.6.2",
+    "notebook==7.5.3",
+    "tensorboard==2.20.0",
+    "sentencepiece==0.2.1",
+    "sacrebleu==2.6.0",
+    "nltk==3.9.2",
+    "timeout_decorator==0.5.0"
+]
